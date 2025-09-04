@@ -1,9 +1,7 @@
-# Linux & Git Command Cheat Sheet
-
-### ls
-The `ls` command lists the files and directories in the current directory
+### cd
+The `cd` command changes the current working directory
 
 ***Example:***
 ```
-ls -l
+cd
 ```
