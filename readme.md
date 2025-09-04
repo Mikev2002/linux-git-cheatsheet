@@ -17,9 +17,21 @@ cd
 ```
 
 ### pwd 
-The `pwd` command prints the current workoing directory ( the folder you are in).
+The `pwd` command prints the current workiing directory ( the folder you are in).
 
 ***Example:***
 ```
 pwd
+```
+
+### mkdir
+The `mkdir` command creates a new directory (folder).
+
+*Example:***
+```
+mkdir projects
+```
+***Create nested folders (create parents as needed):***
+```
+mkdir -p projects/src
 ```
