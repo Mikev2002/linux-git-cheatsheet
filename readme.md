@@ -9,9 +9,17 @@ ls -l
 ```
 
 ### cd
-The `cd` command changes the current working directoy
+The `cd` command changes the current working directory
 
 ***Example:***
 ```
 cd
+```
+
+### pwd 
+The `pwd` command prints the current workoing directory ( the folder you are in).
+
+***Example:***
+```
+pwd
 ```
