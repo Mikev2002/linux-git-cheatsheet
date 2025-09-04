@@ -46,3 +46,13 @@ touch notes.txt
 ```
 touch notes1.txt notes2.txt
 ```
+
+### rm
+The `rm` command removes files. Use `-r` to remove directories recursively. `-i` asks for confirmation (safer).
+
+***Example:***
+```
+rm notes.txt
+rm -r projects/
+rm -ri projects/ #interactive, prompts before each removal
+```
