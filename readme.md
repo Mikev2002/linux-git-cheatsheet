@@ -27,11 +27,22 @@ pwd
 ### mkdir
 The `mkdir` command creates a new directory (folder).
 
-*Example:***
+***Example:***
 ```
 mkdir projects
 ```
 ***Create nested folders (create parents as needed):***
 ```
 mkdir -p projects/src
+```
+
+### touch
+The `touch` command creates an empty file or updates the timestamp of an existing file
+
+***Example:***
+```
+touch notes.txt
+```
+```
+touch notes1.txt notes2.txt
 ```
