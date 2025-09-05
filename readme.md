@@ -82,3 +82,13 @@ cp -i report.txt backup/        # prompt before overwrite
 cp -n report.txt backup/        # never overwrite existing files
 cp -v *.md docs/                # verbose:show what's copied
 ```
+
+### cat
+The `cat` command displays the contents of files or concatenates them.
+
+***Examples:***
+```
+cat notes.txt                               # view a file
+cat file1.txt file2.txt > combined.txt      # combine into a new file
+cat -n script.sh                            # show line numbers
+```
