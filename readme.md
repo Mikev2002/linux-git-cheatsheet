@@ -114,3 +114,11 @@ The `head` command shows the first lines of a file (10 lines by default).
 head notes.txt
 head -n 20 notes.txt
 ```
+
+### git status
+Shows the state of the working directory and staging area (which files are untracked, moditfied, or staged).
+
+***Example:***
+```
+git status
+```
