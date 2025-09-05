@@ -56,3 +56,16 @@ rm notes.txt
 rm -r projects/
 rm -ri projects/ #interactive, prompts before each removal
 ```
+
+### mv
+The `mv` command moves or renames files and directories.
+
+***Example:***
+```
+mv old name.txt newname.txt         #rename a file
+mv notes.txt docs/                  #move a file into directory
+mv file1.txt file2.txt docs/        #move multiple files
+mv -i report.txt docs/              #prompt before overwrite
+mv -n report.txt docs/              #do not overwrite existing files
+mv -v *.txt docs/                   #verbose: show what moved
+```
