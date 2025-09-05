@@ -106,3 +106,11 @@ grep -E "cat|dog" animals.txt       #extemded regex (OR)
 grep -v "^#" config.ini             # invert match (exclude commented lines)
 ```
 
+### head
+The `head` command shows the first lines of a file (10 lines by default).
+
+***Examples:***
+```
+head notes.txt
+head -n 20 notes.txt
+```
