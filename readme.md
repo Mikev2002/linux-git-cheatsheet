@@ -144,3 +144,14 @@ git commit -am "Quick update" # stage tracked files and commit
 - `-m` adds a message.
 - `a` stages only **tracked** files (new files still need `git add`).
 
+### git checkout -b
+Creates **and** switches to a new branch in one step.
+
+***Example:***
+```
+git checkout -b feature-branch
+```
+
+***Notes:***
+- Branch from your current branch (typically 'main').
+- Use short, descriptive names like `fix-typo` or `add-login`.
