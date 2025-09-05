@@ -92,3 +92,17 @@ cat notes.txt                               # view a file
 cat file1.txt file2.txt > combined.txt      # combine into a new file
 cat -n script.sh                            # show line numbers
 ```
+
+### grep
+The `grep` command searches for lines matching a pattern in files.
+
+***Examples:***
+```
+grep "error" app.log                # basic search
+grep -i "error" app.log             # case-insensitive
+grep -n "main()" *.c                # show line numbers
+grep -r "TODO" src/                 # recursive search in a folder
+grep -E "cat|dog" animals.txt       #extemded regex (OR)
+grep -v "^#" config.ini             # invert match (exclude commented lines)
+```
+
