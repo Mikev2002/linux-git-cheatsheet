@@ -122,3 +122,14 @@ Shows the state of the working directory and staging area (which files are untra
 ```
 git status
 ```
+### git add
+Stages changes so they'll be included in the next commit.
+
+***Examples:***
+```
+git add readme.md # stage one file
+git add. # stage everything in the current directory
+git add -p # interactively choose hunks to stage
+```
+
+
