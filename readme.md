@@ -131,5 +131,16 @@ git add readme.md # stage one file
 git add. # stage everything in the current directory
 git add -p # interactively choose hunks to stage
 ```
+### git commit
+Records staged changes in the repository history.
 
+***Examples:***
+```
+git commit -m "Add section for <command>" # commit staged changes
+git commit -am "Quick update" # stage tracked files and commit
+```
+
+***Notes:***
+- `-m` adds a message.
+- `a` stages only **tracked** files (new files still need `git add`).
 
