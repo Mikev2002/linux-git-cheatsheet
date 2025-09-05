@@ -69,3 +69,16 @@ mv -i report.txt docs/              #prompt before overwrite
 mv -n report.txt docs/              #do not overwrite existing files
 mv -v *.txt docs/                   #verbose: show what moved
 ```
+
+### cp
+The `cp` command copies files and driectories.
+
+***Example:***
+```
+cp notes.txt backup/            # copy a file into a directory
+cp file1.txt file2.txt docs/    # copy multiple files
+cp -r src/ project-backup/      # copy a directory recursively
+cp -i report.txt backup/        # prompt before overwrite
+cp -n report.txt backup/        # never overwrite existing files
+cp -v *.md docs/                # verbose:show what's copied
+```
